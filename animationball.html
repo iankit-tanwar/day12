@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations ball</title>
+</head>
+<style>
+    .ball1{
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        background: red;
+        border-radius: 200px;
+        animation-name: abc;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes abc{
+        form{
+            transform: translate(0px,0px);
+        }
+        to{
+            transform: translate(0px,700px);
+
+        }
+    
+    }
+    .ball2{
+        background:brown;
+        animation-delay: 0.1s;
+    }
+    .ball3{
+        background:rgb(47, 145, 49);
+        animation-delay: 0.2s;
+    }
+    .ball4{
+        background:rgb(70, 168, 187);
+        animation-delay: 0.3s;
+    }
+    .ball5{
+        background:rgb(170, 170, 46);
+        animation-delay: 0.4s;
+    }
+    .ball6{
+        background:rgb(194, 54, 194);
+        animation-delay: 0.5s;
+    }
+    .ball7{
+        background:rgb(199, 64, 100);
+        animation-delay: 0.6s;
+    }
+    .ball8{
+        background:rgb(190, 197, 123);
+        animation-delay: 0.7s;
+    }
+    .ball9{
+        background:rgb(1, 237, 111);
+        animation-delay: 0.8s;
+    }
+</style>
+<body>
+    <div class="ball1"></div>
+    <div class="ball1 ball2"></div>
+    <div class="ball1 ball3"></div>
+    <div class="ball1 ball4"></div>
+    <div class="ball1 ball5"></div>
+    <div class="ball1 ball6"></div>
+    <div class="ball1 ball7"></div>
+    <div class="ball1 ball8"></div>
+    <div class="ball1 ball9"></div>
+
+</body>
+</html>
